@@ -3,7 +3,7 @@ export const data = [
     id: 1,
     developer: "Albert",
     title: "Chat with my clone!",
-    thumbnail: "./public/images/AlbertBotShow.png",
+    thumbnail: "/images/AlbertBotShow.png",
     image: ["", ""],
     answers: [
       "Hej! Hvad vil du gerne vide om mig?",
@@ -29,7 +29,7 @@ export const data = [
     id: 2,
     developer: "Andy",
     title: "Min seje amabot-wuhuuu",
-    thumbnail: "./public/images/random.jpg",
+    thumbnail: "/images/random.jpg",
     image: ["img1", "img2"],
     answers: [
       "Min amabot kan svare på alt fra ..... eller noget",
@@ -55,8 +55,8 @@ export const data = [
     id: 4,
     developer: "Frederik",
     title: "Frederik's bot",
-    thumbnail: "/public/images/cæsar.jpg",
-    image: "/public/images/showcase.png",
+    thumbnail: "/images/cæsar.jpg",
+    image: "/images/showcase.png",
     answers: [
       "Hej! Hvad vil du gerne vide om mig?",
       "Jeg hedder Frederik. Hvad vil du ellers vide om mig?",
