@@ -48,10 +48,10 @@ export const data = [
     id: 3,
     developer: "Stine",
     title: "Amabot",
-    thumbnail: "./images/stine-thumbnail.png",
+    thumbnail: "/images/stine-thumbnail.png",
     image: [
-      "./images/stine-ama-1.png",
-      "./images/stine-ama-2.png",
+      "/images/stine-ama-1.png",
+      "/images/stine-ama-2.png",
     ],
     answers: [
       "Bosted",
@@ -68,7 +68,7 @@ export const data = [
     developer: "Frederik",
     title: "Frederik's bot",
     thumbnail: "/images/cæsar.jpg",
-    image: "/images/showcase.png",
+    image: ["/images/showcase.png"],
     answers: [
       "Hej! Hvad vil du gerne vide om mig?",
       "Jeg hedder Frederik. Hvad vil du ellers vide om mig?",
