@@ -14,6 +14,7 @@ export function App() {
     key={bot.id}
     developer={bot.developer}
     thumbnail={bot.thumbnail}
+    id={bot.id}
 
   />
     ))}
