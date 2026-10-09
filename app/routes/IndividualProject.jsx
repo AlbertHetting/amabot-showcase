@@ -1,6 +1,6 @@
 import { useLoaderData } from "react-router";
 
-import { data } from "./data.js";
+import { data } from "../data.js";
 
 export async function clientLoader ({ params }) {
     const targetId = Number(params.id)
@@ -21,10 +21,11 @@ return (
 <>
 <section className="Botdetail">
     <section className="Højre">
-    <h1>HEJ JEG HEDDER ALBERT</h1>
-        <div className="imageCon">
-        <img src={bot.image[0]} alt="" />
-        <img src={bot.image[1]} alt="" />
+    <h1>{bot.title}</h1>
+    <div className="imageCon">
+        {bot.images.map((src) => (
+        <img key={src} src={src} alt={bot.title} />
+        ))}
     </div>
     </section>
     <section className="Venstre">

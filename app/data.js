@@ -46,7 +46,7 @@ export const data = [
     developer: "Stine",
     title: "Amabot",
     thumbnail: "./images/stine-thumbnail.png",
-    images: ["./images/stine-ama-1.png", "./images/stine-ama-2.png"],
+    image: ["./images/stine-ama-1.png", "./images/stine-ama-2.png"],
     answers: ["Bosted", "Familie", "Livret", "Alder", "Navn"],
     challenges: ["Error handling", "Svarlogik"],
   },

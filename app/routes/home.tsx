@@ -1,13 +1,25 @@
-import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import '../index.css';
+import BotCard from '../components/botcard.jsx';
+import { data } from '../data';
 
-export function meta({}: Route.MetaArgs) {
-  return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
-  ];
-}
+const initialData = data
 
-export default function Home() {
-  return <Welcome />;
-}
+export function App() {
+
+  return (
+<>
+  <div>
+    {initialData.map((bot) => (
+    <BotCard
+    key={bot.id}
+    developer={bot.developer}
+    thumbnail={bot.thumbnail}
+
+  />
+    ))}
+  </div>
+  </>
+  
+  )
+};
+export default App
