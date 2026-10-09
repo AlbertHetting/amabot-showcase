@@ -1,5 +1,5 @@
-import './index.css';
-import BotCard from './components/BotCard';
+import '../index.css';
+import BotCard from '../components/botcard.jsx';
 import { data } from '../data';
 
 const initialData = data
