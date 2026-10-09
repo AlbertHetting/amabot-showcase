@@ -45,7 +45,7 @@ export const data = [
   },
 
   {
-    id: "3",
+    id: 3,
     developer: "Stine",
     title: "Amabot",
     thumbnail: "./images/stine-thumbnail.png",
