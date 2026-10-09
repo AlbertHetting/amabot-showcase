@@ -22,12 +22,13 @@ return (
 <section className="Botdetail">
     <section className="Højre">
     <h1>{bot.title}</h1>
-    <div className="imageCon">
-        {bot.images.map((src) => (
-        <img key={src} src={src} alt={bot.title} />
-        ))}
-    </div>
+        <div className="imageCon">
+            {bot.image?.map((src, index) => (
+                <img key={index} src={src} alt={bot.title} />
+            ))}
+        </div>
     </section>
+
     <section className="Venstre">
     </section>
 </section>

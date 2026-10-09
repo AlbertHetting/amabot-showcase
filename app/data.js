@@ -4,7 +4,10 @@ export const data = [
     developer: "Albert",
     title: "Chat with my clone!",
     thumbnail: "/images/AlbertBotShow.png",
-    image: ["", ""],
+    image: [
+      "/images/ChatBotShow2.png",
+      "/images/ChatBotShow3.png",
+    ],
     answers: [
       "Hej! Hvad vil du gerne vide om mig?",
       "Jeg hedder Albert. Hvad vil du ellers vide om mig?",
@@ -46,8 +49,17 @@ export const data = [
     developer: "Stine",
     title: "Amabot",
     thumbnail: "./images/stine-thumbnail.png",
-    image: ["./images/stine-ama-1.png", "./images/stine-ama-2.png"],
-    answers: ["Bosted", "Familie", "Livret", "Alder", "Navn"],
+    image: [
+      "./images/stine-ama-1.png",
+      "./images/stine-ama-2.png",
+    ],
+    answers: [
+      "Bosted",
+      "Familie",
+      "Livret",
+      "Alder",
+      "Navn",
+    ],
     challenges: ["Error handling", "Svarlogik"],
   },
 
